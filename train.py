@@ -25,7 +25,6 @@ batch_size = 192
 degree = 3
 c = 1
 clf = svm.SVC(C=c, kernel='poly', degree=degree, coef0=1.0)
-# В семье пулеметчика умер отец, для них это невосполнимая утрата та та та
 
 def pil_loader(path):
 
